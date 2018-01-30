@@ -1,0 +1,112 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <link href="to_exam1.css" type="text/css" rel="stylesheet">
+</head>
+<body>
+    <div id="wrap">
+        <header>
+            <p>회원가입</p>
+        </header>
+        <section>
+            <form action="#none" method="get">
+                <table>
+                    <tr>
+                        <td>아이디</td>
+                        <td><input type="text" name="id" /></td>
+                    </tr>
+                    <tr>
+                        <td>비밀번호</td>
+                        <td><input type="password" name="pass" /></td>
+                    </tr>
+                    <tr>
+                        <td>비밀번호 확인</td>
+                        <td><input type="password" name="pass_repeat" /></td>
+                    </tr>
+                    <tr>
+                        <td>전화번호</td>
+                        <td>
+                            <input type="text" name="p_num1" />-
+                            <input type="text" name="p_num2" />-
+                            <input type="text" name="p_num3" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>집주소</td>
+                        <td>
+                            <input type="text" name="home_address1" />
+                            <input type="button" value="우편번호찾기" /><br />
+                            <input type="text" name="home_address2" /><br />
+                            <input type="text" name="home_address3" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>이메일</td>
+                        <td>
+                            <input type="text" name="email" />@
+                            <select name="e_adress">
+                                <option>naver.com</option>
+                                <option>google.com</option>
+                                <option>daum.com</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>직장주소</td>
+                        <td>
+                            <input type="text" name="work_address1" />
+                            <input type="button" value="우편번호찾기" /><br />
+                            <input type="text" name="work_address2" /><br />
+                            <input type="text" name="work_address3" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>직장전화번호</td>
+                        <td>
+                            <select name="work_num1">
+                                <option>02</option>
+                                <option>031</option>
+                                <option>032</option>
+                            </select>
+                            <input type="text" name="work_num2" />-
+                            <input type="text" name="work_num3" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>우편물 수령지</td>
+                        <td>
+                            <input type="radio" name="receive_adress" value="home">집주소로 수령
+                            <input type="radio" name="receive_adress" value="work">직장주소로 수령
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>결혼 여부</td>
+                        <td>
+                            <input type="radio" name="marry" value="not_married">미혼
+                            <input type="radio" name="marry" value="yes_married">기혼
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>관심사</td>
+                        <td>
+                            <input type="checkbox" name="interest" value="economy">경제
+                            <input type="checkbox" name="interest" value="culture">문화
+                            <input type="checkbox" name="interest" value="politic">정치
+                            <input type="checkbox" name="interest" value="health">체육
+                            <input type="checkbox" name="interest" value="diploma">외교
+                        </td>
+                    </tr>
+                </table>
+            </form>
+        </section>
+        <hr/>
+        <footer>
+            <input type="submit" value="회원가입" name="sign_up" />
+            <input type="reset" value="취소" name="cancel" />
+        </footer>
+    </div>
+</body>
+</html>

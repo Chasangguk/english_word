@@ -1,0 +1,121 @@
+
+* {
+	text-decoration: none;
+}
+header #header_menu{
+	width:100%;
+	background-color: #000000;
+	overflow:hidden;
+}
+
+header #header_menu li{
+	float: left;
+	margin-right:50px;
+	list-style: none;
+	height:20px;
+	line-height:5px;
+}
+
+header #header_menu li a{
+	color:#FFFFFF;
+}
+
+header #header_logo {
+
+}
+
+section #section_menu {
+	width: 100%;
+	background-color: #FFFFFF;
+	overflow: hidden;
+	border-style:dashed;
+	border-color:#C0C0C0;
+}
+
+section #section_menu li {
+	color: #000000;
+	float: left;
+	margin-right: 130px;
+	list-style: none;
+	height: 20px;
+	line-height: 5px;
+}
+
+section #slide_banner {
+	width: 100%;
+	background-color: #FFFFFF;
+	overflow: hidden;
+}
+
+section	#slide_banner li {
+		color: #000000;
+		float: left;
+		list-style: none;
+		height: 500px;
+		border: 5px solid #F0F0F0;
+	}
+
+section #slide_banner li:nth-child(1){
+	width: 900px;
+}
+
+section #slide_banner li:nth-child(2) {
+	width: 500px;
+}
+
+section #hit_product {
+	width: 100%;
+	background-color: #FFFFFF;
+	overflow: hidden;
+}
+
+section #hit_product li {
+	color: #000000;
+	float: left;
+	list-style: none;
+	width: 340px;
+	height: 500px;
+	margin-right:10px;
+	border: 5px solid #F0F0F0;
+}
+
+section #md_product {
+	width: 100%;
+	background-color: #FFFFFF;
+	overflow: hidden;
+}
+
+section #md_product li {
+	color: #000000;
+	float: left;
+	list-style: none;
+	width: 340px;
+	height: 500px;
+	margin-right: 10px;
+	border: 5px solid #F0F0F0;
+}
+
+footer #office_info {
+	width: 100%;
+	background-color: #FFFFFF;
+	overflow: hidden;
+}
+
+footer #office_info li {
+	color: #000000;
+	float: left;
+	list-style: none;
+	width: 470px;
+	height: 200px;
+	border: 5px solid #F0F0F0;
+}
+
+footer #copyright{
+	margin-left:2.5%;
+	width:96%;
+	height:50px;
+	line-height:50px;
+	background-color:#000000;
+	color:#FFFFFF;
+	text-align:center;
+}

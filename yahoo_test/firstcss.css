@@ -1,0 +1,66 @@
+body {
+	font-family: 'Times New Roman', Times, serif;
+	margin: 0;
+}
+
+a {	text-decoration: none}; 
+
+header {
+	width: 99%;
+	margin: 0;
+	border: 1px solid #cccccc;
+}
+/*/////////////////////////////제일 위 메뉴부분/////////////////////////*/
+#home_head {
+	width: 100%;		/*가로박스를 처음부터 끝까지*/
+	overflow: hidden;	/*넘어가면 안보이게*/
+	background-color: #2d1152;	/*박스의 색*/
+}
+
+#home_head li {
+	font-size: 0.9em;
+	color: #ffffff;
+	margin-right: 20px;	/*글자간 간격*/
+	list-style: none;	/*list에서 옆의 점 없애는 부분*/
+	float: left;		/*가로로 정렬*/
+}
+/*///////////////////////////////메뉴 오른쪽 메이크 야후부분////////////*/
+	#home_head .make_yahoo {
+	font-size: 0.9em;
+	margin: 0 10px 0 0;
+	float: right;
+}
+
+#home_head .make_yahoo a { /*make_yahoo중 앵커부분 색조절*/
+	color: #FFFFFF;
+}
+
+#main_top {
+	width: 1000px;
+	margin:0 auto;
+}
+
+#main_top div {
+	margin-top: 10px;
+	float: left;
+}
+
+#main_top .search input {
+	width: 400px;
+	font-size: 20px;
+	border: 1px solid #3488d9;
+	margin-top: 6px;
+	padding: 5px;
+}
+
+#main_top .btn {
+	background: url(./search_btn.png) no-repeat 0 0;
+	width: 124px;
+	height: 38px;
+	color:#FFFFFF;
+}
+#main_top .homepy ul li{
+	list-style: none; /*list에서 옆의 점 없애는 부분*/
+	float:left;
+	margin-right : 10px;
+}

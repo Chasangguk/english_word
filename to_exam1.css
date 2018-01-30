@@ -1,0 +1,52 @@
+* {
+	font-size: 12px;
+	margin: 0;
+	padding: 0;
+	
+}
+
+#wrap {
+	width: 800px;
+	border: 1px solid #cccccc;
+	margin: 0 auto;
+}
+header {
+	border: 1px solid #cccccc;
+	font-weight: bold;
+	text-align: center;
+	padding:10px;
+	margin:10px;
+}
+
+header p {
+	font-size: 1.5em;
+}
+
+td {
+	margin: 10px;
+	padding: 10px;
+}
+
+input {
+	border: 1px solid #cccccc;
+	padding: 5px;
+	font-size: 1.2em;
+	font-weight: bold;
+}
+
+
+tr td:first-child {
+	width: 130px;
+	background-color: #eeeeee;
+}
+
+footer{
+	text-align:center;
+	margin :10px 10px;
+}
+/*
+.n_input{
+	width:130px;
+	background-color:#F0F0F0;
+}
+	*/
